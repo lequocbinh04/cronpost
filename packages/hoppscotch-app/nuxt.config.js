@@ -5,7 +5,7 @@ require("dotenv").config()
 
 // Common options
 export const options = {
-  name: "Hoppscotch",
+  name: "CronPost",
   shortDescription: "Open source API development ecosystem",
   description:
     "Helps you create requests faster, saving precious time on development.",

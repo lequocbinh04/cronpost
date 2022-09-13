@@ -63,7 +63,7 @@
     "invite_your_friends": "邀請您的夥伴",
     "join_discord_community": "加入我們的 Discord 社群",
     "keyboard_shortcuts": "鍵盤快捷鍵",
-    "name": "Hoppscotch",
+    "name": "CronPost",
     "new_version_found": "已發現新版本。重新整理頁面以更新。",
     "options": "選項",
     "proxy_privacy_policy": "Proxy 隱私政策",
@@ -497,13 +497,13 @@
       "title": "主題"
     }
   },
-  "shortcodes":{
-    "actions":"操作",
+  "shortcodes": {
+    "actions": "操作",
     "created_on": "建立於",
-    "deleted" : "已刪除快捷碼",
+    "deleted": "已刪除快捷碼",
     "method": "方法",
-    "not_found":"找不到快捷碼",
-    "short_code":"快捷碼",
+    "not_found": "找不到快捷碼",
+    "short_code": "快捷碼",
     "url": "網址"
   },
   "show": {

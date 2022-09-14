@@ -34,7 +34,7 @@
       <SmartAnchor
         v-tippy="{ theme: 'tooltip' }"
         :title="t('action.open_workspace')"
-        :to="`https://hopp.sh/r/${shortcode.id}`"
+        :to="`https://cronpost.net/r/${shortcode.id}`"
         blank
         svg="external-link"
         class="px-3 text-accent hover:text-accent"
@@ -117,7 +117,7 @@ const timeStamp = computed(() =>
 )
 
 const copyShortcode = (codeID: string) => {
-  copyToClipboard(`https://hopp.sh/r/${codeID}`)
+  copyToClipboard(`https://cronpost.net/r/${codeID}`)
   toast.success(`${t("state.copied_to_clipboard")}`)
   copyIconRefs.value = "check"
 }

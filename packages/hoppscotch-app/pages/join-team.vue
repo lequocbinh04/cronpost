@@ -128,7 +128,7 @@
     <div class="p-4">
       <ButtonSecondary
         class="tracking-wide !font-bold !text-secondaryDark"
-        label="HOPPSCOTCH"
+        label="CronPost"
         to="/"
       />
     </div>

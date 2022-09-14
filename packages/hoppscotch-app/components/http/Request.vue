@@ -445,13 +445,13 @@ const copyShareLink = (shareLink: string) => {
       .share({
         title: "Hoppscotch",
         text: `Hoppscotch • Open source API development ecosystem at ${time} on ${date}`,
-        url: `https://hopp.sh/r${shareLink}`,
+        url: `https://cronpost.net/r${shareLink}`,
       })
       .then(() => {})
       .catch(() => {})
   } else {
     copyLinkIcon.value = "check"
-    copyToClipboard(`https://hopp.sh/r${shareLink}`)
+    copyToClipboard(`https://cronpost.net/r${shareLink}`)
     toast.success(`${t("state.copied_to_clipboard")}`)
   }
 }
